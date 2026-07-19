@@ -1,5 +1,6 @@
 # SOC Portfolio
 
+
 This repository contains my hands-on Security Operations Center (SOC) projects as I progress toward becoming a SOC Analyst.
 
 ## Planned Projects

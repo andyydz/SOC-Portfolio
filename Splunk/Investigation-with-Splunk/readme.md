@@ -6,7 +6,7 @@ This folder contains screenshot evidence from two investigation scenarios.
 
 ---
 
-##Scenario 1 — Anomalous VPN Connection
+## Scenario 1 — Anomalous VPN Connection
 
 **Goal:** Investigate a flagged VPN connection alert surfaced in the Splunk ES Analyst Queue and determine whether it represents legitimate remote access or unauthorized activity.
 
@@ -30,7 +30,7 @@ This folder contains screenshot evidence from two investigation scenarios.
 
 ---
 
-##Scenario 2 — Suspicious `wevtutil` Execution (Anti-Forensics Indicator)
+## Scenario 2 — Suspicious `wevtutil` Execution (Anti-Forensics Indicator)
 
 **Goal:** Investigate a suspicious use of `wevtutil.exe`, a native Windows utility that can be abused to **clear or manipulate Windows Event Logs** — a common technique attackers use to cover their tracks after gaining access.
 

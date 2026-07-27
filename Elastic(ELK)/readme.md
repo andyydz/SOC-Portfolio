@@ -32,7 +32,7 @@ Hands-on log investigation using **Kibana Discover**, simulating an L1 SOC Analy
 
 ---
 
-##Skills Demonstrated
+## Skills Demonstrated
 - Kibana Discover navigation and raw log review
 - Field statistics for rapid data profiling
 - Filter construction to isolate relevant events

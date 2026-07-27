@@ -52,7 +52,7 @@ This folder contains screenshot evidence from two investigation scenarios.
 
 ---
 
-##Skills Demonstrated
+## Skills Demonstrated
 - Splunk ES incident review & alert triage
 - SPL (Search Processing Language) query writing
 - Log correlation and event timeline reconstruction

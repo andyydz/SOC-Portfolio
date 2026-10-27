@@ -27,10 +27,23 @@ A console-based Java, JDBC, and MariaDB application for managing IT assets and t
 
 Repository: [security-incident-asset-tracker](https://github.com/andyydz/security-incident-asset-tracker)
 
-### Sentinel SOC Lab — In Progress
 
-An integrated, evidence-driven SOC lab under development, focused on simulating activity, detecting events, investigating alerts, documenting response, measuring results, and improving detections. The project will be linked here when its repository link and portfolio-ready milestone are confirmed.
+### [Sentinel — Integrated SOC Lab](https://github.com/andyydz/sentinel-soc-lab)
 
+**Status:** In Progress
+
+An evidence-driven Security Operations Center (SOC) lab built around Wazuh, Linux endpoints, detection engineering, and incident investigation.
+
+**Progress so far:**
+- Established communication between the Wazuh manager and Linux endpoint agent.
+- Validated File Integrity Monitoring (FIM) using controlled file activity.
+- Completed CASE-001 investigation work covering file modification, creation, and deletion.
+- Reviewed Wazuh alerts and supporting logs to identify which detection rules triggered.
+- Documented investigation findings, screenshots, and detection gaps.
+
+**Key finding:** During CASE-001 validation, built-in Wazuh rules detected file creation and deletion events, while custom rule `100002` did not trigger for those events. This identified an area for further detection engineering and retesting.
+
+**Next steps:** Improve detection coverage, develop additional investigation cases, document response workflows, and measure detection effectiveness.
 ## Future Portfolio Work
 
 I plan to add more hands-on SOC exercises, detection and investigation write-ups, and supporting evidence as the work is completed. Some folders and files may be preparatory work; their existence does not mean the associated project or exercise is finished.
